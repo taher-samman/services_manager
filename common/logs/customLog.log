@@ -1,0 +1,231 @@
+2022-10-21 13:01:00 [127.0.0.1][-][-][info][customlog] TYPE_PROVIDER: 1
+    in /Applications/MAMP/htdocs/services/frontend/models/SignupForm.php:61
+    in /Applications/MAMP/htdocs/services/frontend/controllers/SiteController.php:161
+2022-10-21 13:00:57 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-frontend_services' => 'sr2fowUfaoLx_aHhcJ8Pr59biJsKXYEpaGcZedDk3ZyL5_LvKEgr8YO48Ioi6TzB0j_b90ls8UtFJGMJj5GH9w=='
+    'SignupForm' => [
+        'username' => 'provider'
+        'email' => 'provider@codendot.com'
+        'password' => 'Pass*123'
+        'requestProvider' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend_services' => '1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca:2:{i:0;s:26:\"_identity-backend_services\";i:1;s:46:\"[1,\"sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC\",2592000]\";}'
+    'advanced-backend_services' => '4t40mf2cn4tnehq2ppagqjib9n'
+    '_csrf-backend_services' => '74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca:2:{i:0;s:22:\"_csrf-backend_services\";i:1;s:32:\"OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7\";}'
+    '_csrf-frontend_services' => 'a812bb0919a8db07a79d97e67f2bdcd8cf194916cebd231649cfedd4b30178f3a:2:{i:0;s:23:\"_csrf-frontend_services\";i:1;s:32:\"9ZmL-WAsrEQkRv3nMdSlC1pb-Czp_uZk\";}'
+    'advanced-frontend_services' => 'og36jd05lcbqpg6c0cle9aj5b5'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__returnUrl' => 'http://services.manager/site/logout'
+    'success' => ' Thank you for registration As Provider. Please check your inbox for verification email.'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'services.manager'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '313'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://services.manager'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://services.manager/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8,fr;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend_services=1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca%3A2%3A%7Bi%3A0%3Bs%3A26%3A%22_identity-backend_services%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC%22%2C2592000%5D%22%3B%7D; advanced-backend_services=4t40mf2cn4tnehq2ppagqjib9n; _csrf-backend_services=74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22_csrf-backend_services%22%3Bi%3A1%3Bs%3A32%3A%22OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7%22%3B%7D; _csrf-frontend_services=a812bb0919a8db07a79d97e67f2bdcd8cf194916cebd231649cfedd4b30178f3a%3A2%3A%7Bi%3A0%3Bs%3A23%3A%22_csrf-frontend_services%22%3Bi%3A1%3Bs%3A32%3A%229ZmL-WAsrEQkRv3nMdSlC1pb-Czp_uZk%22%3B%7D; advanced-frontend_services=og36jd05lcbqpg6c0cle9aj5b5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.8 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'services.manager'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/services/frontend/web/index.php'
+    'REMOTE_PORT' => '61373'
+    'REDIRECT_URL' => '/frontend/web/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/signup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1666357257.8573
+    'REQUEST_TIME' => 1666357257
+    'APP_NAME' => 'ServicesManagement'
+    'APP_ID' => 'services'
+]
+2022-10-21 13:01:13 [127.0.0.1][-][-][info][customlog] TYPE_USER: 0
+    in /Applications/MAMP/htdocs/services/frontend/models/SignupForm.php:64
+    in /Applications/MAMP/htdocs/services/frontend/controllers/SiteController.php:161
+2022-10-21 13:01:11 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-frontend_services' => '99-MruXC8sjpK_W2r8OL64V95eP7WhZQNflW8j_dmU7OheHiyJWzu5tupN39tbiFyBm2j7hrZjIYuiyCYKjDJQ=='
+    'SignupForm' => [
+        'username' => 'user'
+        'email' => 'user@codendot.com'
+        'password' => 'Pass&123'
+        'requestProvider' => '0'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend_services' => '1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca:2:{i:0;s:26:\"_identity-backend_services\";i:1;s:46:\"[1,\"sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC\",2592000]\";}'
+    'advanced-backend_services' => '4t40mf2cn4tnehq2ppagqjib9n'
+    '_csrf-backend_services' => '74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca:2:{i:0;s:22:\"_csrf-backend_services\";i:1;s:32:\"OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7\";}'
+    '_csrf-frontend_services' => 'a812bb0919a8db07a79d97e67f2bdcd8cf194916cebd231649cfedd4b30178f3a:2:{i:0;s:23:\"_csrf-frontend_services\";i:1;s:32:\"9ZmL-WAsrEQkRv3nMdSlC1pb-Czp_uZk\";}'
+    'advanced-frontend_services' => 'og36jd05lcbqpg6c0cle9aj5b5'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__returnUrl' => 'http://services.manager/'
+    'success' => 'Thank you for registration As User.'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'services.manager'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '273'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://services.manager'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://services.manager/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8,fr;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend_services=1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca%3A2%3A%7Bi%3A0%3Bs%3A26%3A%22_identity-backend_services%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC%22%2C2592000%5D%22%3B%7D; advanced-backend_services=4t40mf2cn4tnehq2ppagqjib9n; _csrf-backend_services=74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22_csrf-backend_services%22%3Bi%3A1%3Bs%3A32%3A%22OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7%22%3B%7D; _csrf-frontend_services=a812bb0919a8db07a79d97e67f2bdcd8cf194916cebd231649cfedd4b30178f3a%3A2%3A%7Bi%3A0%3Bs%3A23%3A%22_csrf-frontend_services%22%3Bi%3A1%3Bs%3A32%3A%229ZmL-WAsrEQkRv3nMdSlC1pb-Czp_uZk%22%3B%7D; advanced-frontend_services=og36jd05lcbqpg6c0cle9aj5b5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.8 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'services.manager'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/services/frontend/web/index.php'
+    'REMOTE_PORT' => '61374'
+    'REDIRECT_URL' => '/frontend/web/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/signup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1666357271.5503
+    'REQUEST_TIME' => 1666357271
+    'APP_NAME' => 'ServicesManagement'
+    'APP_ID' => 'services'
+]
+2022-10-21 13:15:35 [127.0.0.1][-][-][info][customlog] TYPE_PROVIDER: 1
+    in /Applications/MAMP/htdocs/services/frontend/models/SignupForm.php:61
+    in /Applications/MAMP/htdocs/services/frontend/controllers/SiteController.php:161
+2022-10-21 13:15:33 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-frontend_services' => '16cbZjupfpDKkYizWgwS1GG9a8H5wQSx7QmGb5KYFnnv6C8FbMQ4-Yam4eAOPFObAt5bis3xcumJS74azatXLw=='
+    'SignupForm' => [
+        'username' => 'provider2'
+        'email' => 'provider2@codendot.com'
+        'password' => 'Pass*123'
+        'requestProvider' => '1'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-backend_services' => '1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca:2:{i:0;s:26:\"_identity-backend_services\";i:1;s:46:\"[1,\"sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC\",2592000]\";}'
+    'advanced-backend_services' => '4t40mf2cn4tnehq2ppagqjib9n'
+    '_csrf-backend_services' => '74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca:2:{i:0;s:22:\"_csrf-backend_services\";i:1;s:32:\"OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7\";}'
+    '_csrf-frontend_services' => '4668a559efb8aa573162fef2ce3760c0873c803ceb5f9f95e03bc6f99d3e9b18a:2:{i:0;s:23:\"_csrf-frontend_services\";i:1;s:32:\"8O4cWmFiL7iST0AOcc0K40vXdB8u_3AV\";}'
+    'advanced-frontend_services' => '1h6pe8k7bpoj6idgmidfn0b0ec'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__returnUrl' => 'http://services.manager/'
+    'success' => ' Thank you for registration As Provider. Please check your inbox for verification email.'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'services.manager'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '315'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://services.manager'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://services.manager/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ar;q=0.8,fr;q=0.7'
+    'HTTP_COOKIE' => '_identity-backend_services=1c15ffb01c4941c34302261812c813c8c36cc7b02cf3c15126da6a419cd1fb6ca%3A2%3A%7Bi%3A0%3Bs%3A26%3A%22_identity-backend_services%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22sGDXidM9JQUfQc5ns-CwbsTR6QnD4chC%22%2C2592000%5D%22%3B%7D; advanced-backend_services=4t40mf2cn4tnehq2ppagqjib9n; _csrf-backend_services=74b9b6a7fd733c5314dac4d115a0cc239c799b10efadccc6f22ca8d5c43f44aca%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22_csrf-backend_services%22%3Bi%3A1%3Bs%3A32%3A%22OnDuPgqHlAkjni2BCUVtgy-7lyrO-Gh7%22%3B%7D; _csrf-frontend_services=4668a559efb8aa573162fef2ce3760c0873c803ceb5f9f95e03bc6f99d3e9b18a%3A2%3A%7Bi%3A0%3Bs%3A23%3A%22_csrf-frontend_services%22%3Bi%3A1%3Bs%3A32%3A%228O4cWmFiL7iST0AOcc0K40vXdB8u_3AV%22%3B%7D; advanced-frontend_services=1h6pe8k7bpoj6idgmidfn0b0ec'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/8.0.8 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1'
+    'SERVER_NAME' => 'services.manager'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/MAMP/htdocs/services'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/services/frontend/web/index.php'
+    'REMOTE_PORT' => '61589'
+    'REDIRECT_URL' => '/frontend/web/site/signup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/signup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1666358133.1851
+    'REQUEST_TIME' => 1666358133
+    'APP_NAME' => 'ServicesManagement'
+    'APP_ID' => 'services'
+]

@@ -1,0 +1,1 @@
+<h1><?= $provider->prices; ?></h1>
